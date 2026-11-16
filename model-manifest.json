@@ -1,0 +1,19 @@
+{
+  "id": "slimsam-77-uniform-fp32",
+  "repository": "Xenova/slimsam-77-uniform",
+  "revision": "5850ab45f587c112167512ffef949107115e26a0",
+  "license": "Apache-2.0",
+  "baseUrl": "https://huggingface.co/Xenova/slimsam-77-uniform/resolve/5850ab45f587c112167512ffef949107115e26a0/onnx",
+  "files": {
+    "encoder": {
+      "name": "vision_encoder.onnx",
+      "bytes": 23276014,
+      "sha256": "9f8433273a6750b587779baa0cf5508111001bf7e7acfcf585d370139fd366d0"
+    },
+    "decoder": {
+      "name": "prompt_encoder_mask_decoder.onnx",
+      "bytes": 16557892,
+      "sha256": "f4514391764fbd56e08e119060d874ecd7d52994bfb1968af159e12d4943b5bb"
+    }
+  }
+}
