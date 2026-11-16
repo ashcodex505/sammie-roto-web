@@ -875,12 +875,17 @@ export default function App() {
               New workspace
             </button>
           )}
-          <button className="text-button" onClick={() => setHelp(true)}>
+          <button
+            className="text-button"
+            aria-label="Quick guide"
+            onClick={() => setHelp(true)}
+          >
             <CircleHelp size={16} />
             <span>Quick guide</span>
           </button>
           <button
             className="secondary small"
+            aria-label="Open project"
             disabled={!!busy}
             onClick={() => archiveRef.current?.click()}
           >

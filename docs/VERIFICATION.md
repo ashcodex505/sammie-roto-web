@@ -35,6 +35,7 @@ Completed through visible browser controls:
 7. Exported silent overlay WebM. ffprobe identified VP9 at the displayed dimensions and three decoded frames with timestamps near 0.000, 0.085, and 0.170 seconds. ffmpeg decoded the file without error. Real-time MediaRecorder output is approximate and may omit a duration field until played/remuxed.
 8. Exported and inspected a project archive. It retained both objects/colors, three masks for Rust, its positive/negative prompts and erase layer, and the original 62,218-byte source clip. Road remained independent with no invented mask.
 9. Reopened the exported archive in the editor. Reloaded the page, restored browser recovery, and confirmed the clip, both objects, three masks, 12 FPS and in/out range survived.
+10. Exported a second archive without source video, opened it, relinked the original MP4, and confirmed all three masks survived. This also passed at the 390-pixel viewport width.
 
 The development server was also opened separately to check React StrictMode cleanup and a fresh model load. Device diagnostics show the actual selected runtime, recorder codec, isolation, and local storage mechanism. API availability for WebCodecs/OPFS is reported separately from implemented use.
 
